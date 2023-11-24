@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>1000</width>
     <height>600</height>
    </rect>
   </property>
@@ -48,7 +48,22 @@
              <number>0</number>
             </property>
             <item>
-             <widget class="QTableWidget" name="tableWidget_2"/>
+             <widget class="QTableWidget" name="userTable">
+              <property name="editTriggers">
+               <set>QAbstractItemView::NoEditTriggers</set>
+              </property>
+              <property name="rowCount">
+               <number>0</number>
+              </property>
+              <property name="columnCount">
+               <number>2</number>
+              </property>
+              <attribute name="horizontalHeaderMinimumSectionSize">
+               <number>100</number>
+              </attribute>
+              <column/>
+              <column/>
+             </widget>
             </item>
             <item>
              <widget class="QWidget" name="widget" native="true">
@@ -68,14 +83,14 @@
                <item>
                 <layout class="QHBoxLayout" name="horizontalLayout">
                  <item>
-                  <widget class="QPushButton" name="pushButton">
+                  <widget class="QPushButton" name="userAddRegistryButton">
                    <property name="text">
                     <string>+</string>
                    </property>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QPushButton" name="pushButton_2">
+                  <widget class="QPushButton" name="userDeleteRegistryButton">
                    <property name="text">
                     <string>-</string>
                    </property>
@@ -116,7 +131,16 @@
              <number>0</number>
             </property>
             <item>
-             <widget class="QTableWidget" name="tableWidget"/>
+             <widget class="QTableWidget" name="machineTable">
+              <property name="editTriggers">
+               <set>QAbstractItemView::NoEditTriggers</set>
+              </property>
+              <property name="columnCount">
+               <number>2</number>
+              </property>
+              <column/>
+              <column/>
+             </widget>
             </item>
             <item>
              <widget class="QWidget" name="widget_2" native="true">
@@ -136,14 +160,14 @@
                <item>
                 <layout class="QHBoxLayout" name="horizontalLayout_3">
                  <item>
-                  <widget class="QPushButton" name="pushButton_3">
+                  <widget class="QPushButton" name="machineAddRegistryButton">
                    <property name="text">
                     <string>+</string>
                    </property>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QPushButton" name="pushButton_4">
+                  <widget class="QPushButton" name="machineDeleteRegistryButton">
                    <property name="text">
                     <string>-</string>
                    </property>

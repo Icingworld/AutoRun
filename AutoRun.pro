@@ -11,14 +11,18 @@ LIBS    += -luser32 -lAdvapi32
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    add.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    add.h \
     mainwindow.h \
-    global.h
+    global.h \
+    regItem.h
 
 FORMS += \
+    add.ui \
     mainwindow.ui
 
 TRANSLATIONS += \
@@ -30,3 +34,12 @@ CONFIG += embed_translations
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resources.qrc
+
+DISTFILES += \
+    logo.rc
+
+RC_FILE += \
+    logo.rc

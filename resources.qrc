@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Properties_32x32.png</file>
+    </qresource>
+</RCC>
