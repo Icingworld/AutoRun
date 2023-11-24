@@ -13,10 +13,10 @@
 
 ### 1. add registry
 
-![add](C:\Users\zwjiang\Documents\Qt project\AutoRun\doc\add.png)
+![add](doc/add.png)
 
 
 
 ### 2. delete registry
 
-![delete](C:\Users\zwjiang\Documents\Qt project\AutoRun\doc\delete.png)
+![delete](doc/delete.png)
